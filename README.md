@@ -20,3 +20,15 @@ This project creates the following Databricks objects:
   - `olist_project.gold.seller_performance_summary`
 
 The project also includes an optional Lakeflow pipeline version under the `transformations/` folder.
+
+## Project Architecture
+
+![Olist Dataset Schema](docs/images/olist_schema.png)
+
+## Databricks Lakeflow Pipeline
+
+![Pipeline Graph](docs/images/pipeline_graph.png)
+
+## Databricks Job
+
+![Job Task](docs/images/job_pipeline_task.png)
